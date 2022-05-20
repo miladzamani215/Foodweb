@@ -1,0 +1,12 @@
+//mixin for tempelet grid
+@mixin grid($valus) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax($valus,1fr));
+    gap: 1.5rem;
+}
+//mixn for font size
+@mixin fontsize($size) {
+    font-family: 'Satisfy', cursive;
+    font-size: $size;
+    color: $green;
+}
